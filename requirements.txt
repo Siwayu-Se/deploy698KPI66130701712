@@ -1,6 +1,6 @@
-matplotlib
-scikit-learn
-pandas
-numpy
-seaborn
-pickle
+matplotlib==3.8.4
+scikit-learn==1.4.2
+pandas==2.2.2
+numpy==1.26.4
+seaborn==0.13.2
+cloudpickle==2.2.1
