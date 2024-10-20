@@ -41,7 +41,7 @@ df = pd.read_csv('Uncleaned_employees_final_dataset.csv')
 df = df.drop('employee_id', axis=1)
 
 # Streamlit App
-st.title('Employee KPIs App')
+st.title('Employee KPIs App By Siwayu')
 
 # Define a session state to remember tab selections
 if 'tab_selected' not in st.session_state:
