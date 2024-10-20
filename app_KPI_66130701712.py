@@ -22,7 +22,10 @@ st.markdown(
         background-position: center;
         height: 100vh;
     }}
-    body {{
+    .streamlit-expanderHeader {{
+        color: {text_color};
+    }}
+    .css-1y4p78j {{
         color: {text_color};
     }}
     </style>
