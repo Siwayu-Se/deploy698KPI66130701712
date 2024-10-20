@@ -10,7 +10,7 @@ import pickle
 background_image_url = "https://images.pexels.com/photos/421927/pexels-photo-421927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 
 # กำหนดสีที่ต้องการ
-text_color = "#FF6600"  # สีที่คุณต้องการ
+text_color = "#FF00CC	"  # สีที่คุณต้องการ
 
 # ใส่ CSS สำหรับพื้นหลังและสีตัวอักษร
 st.markdown(
