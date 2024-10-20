@@ -22,7 +22,7 @@ st.markdown(
         background-position: center;
         height: 100vh;
     }}
-    body {{
+    h1, h2, h3, p, div {{
         color: {text_color} !important;
     }}
     </style>
