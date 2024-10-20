@@ -23,6 +23,21 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# กำหนดสีที่ต้องการ
+text_color = "#FF5733"  # สีที่คุณต้องการ
+
+# ใส่ CSS สำหรับเปลี่ยนสีตัวหนังสือ
+st.markdown(
+    f"""
+    <style>
+    body {{
+        color: {text_color};
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Load model and encoders
 with open('model_kpi_66130701712.pkl', 'rb') as file:
     modelXGB, department_encoder, region_encoder, education_encoder, gender_encoder, recruitment_channel_encoder = pickle.load(file)
