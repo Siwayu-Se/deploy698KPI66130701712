@@ -6,12 +6,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle
 
+# กำหนด URL หรือเส้นทางของภาพพื้นหลัง
 background_image_url = "https://media.istockphoto.com/id/1175668548/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%9F%E0%B8%B9%E0%B8%88%E0%B8%B4%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5%E0%B8%AA%E0%B8%B2%E0%B8%9A%E0%B8%84%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%81%E0%B8%B8%E0%B8%88%E0%B8%B4%E0%B9%82%E0%B8%81%E0%B8%B0%E0%B8%A2%E0%B8%B2%E0%B8%A1%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%E0%B8%AD%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%87-%E0%B8%A4%E0%B8%94%E0%B8%B9%E0%B9%83%E0%B8%9A%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%9F%E0%B8%B9%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%B2%E0%B8%A1%E0%B8%B2%E0%B8%99%E0%B8%B2%E0%B8%8A%E0%B8%B4%E0%B9%83%E0%B8%99%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8.jpg?s=2048x2048&w=is&k=20&c=Ivb0GahfW54gTVjHpKC85B04Jdtrdx9dYkaBf5959xo="
 
 # กำหนดสีที่ต้องการ
 text_color = "#FF0000"  # สีที่คุณต้องการ
 
-# โค้ด CSS สำหรับพื้นหลัง
+# ใส่ CSS สำหรับพื้นหลังและสีตัวอักษร
 st.markdown(
     f"""
     <style>
@@ -21,7 +22,6 @@ st.markdown(
         background-position: center;
         height: 100vh;
     }}
-
     body {{
         color: {text_color};
     }}
@@ -29,6 +29,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 # Load model and encoders
 with open('model_kpi_66130701712.pkl', 'rb') as file:
