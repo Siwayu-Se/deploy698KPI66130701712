@@ -22,11 +22,8 @@ st.markdown(
         background-position: center;
         height: 100vh;
     }}
-    .streamlit-expanderHeader {{
-        color: {text_color};
-    }}
-    .css-1y4p78j {{
-        color: {text_color};
+    body {{
+        color: {text_color} !important;
     }}
     </style>
     """,
