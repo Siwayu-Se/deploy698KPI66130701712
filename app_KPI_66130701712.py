@@ -7,7 +7,7 @@ import seaborn as sns
 import pickle
 
 # กำหนด URL หรือเส้นทางของภาพพื้นหลัง
-background_image_url = "https://images.pexels.com/photos/355288/pexels-photo-355288.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+background_image_url = "https://images.pexels.com/photos/1379636/pexels-photo-1379636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 
 # กำหนดสีที่ต้องการ
 text_color = "#FFFFFF"  # สีที่คุณต้องการ
